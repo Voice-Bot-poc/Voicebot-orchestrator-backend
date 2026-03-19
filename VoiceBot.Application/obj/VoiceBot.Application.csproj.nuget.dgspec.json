@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {}
+    "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {}
   },
   "projects": {
-    "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {
+    "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
+        "projectUniqueName": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
         "projectName": "VoiceBot.Application",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
+        "projectPath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
         "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Application/obj/",
+        "outputPath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/soham/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj"
+              "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
+                "projectPath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj"
               }
             }
           }
@@ -46,6 +46,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,14 +72,14 @@
         }
       }
     },
-    "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
+    "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
+        "projectUniqueName": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
         "projectName": "VoiceBot.Domain",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
+        "projectPath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
         "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/obj/",
+        "outputPath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/soham/.nuget/NuGet/NuGet.Config"

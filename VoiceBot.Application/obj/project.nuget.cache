@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "n1enThdQPSM=",
+  "dgSpecHash": "t5q7qg+9PfE=",
   "success": true,
-  "projectFilePath": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/soham/Voicebot/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/soham/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "/home/soham/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.5/microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512",
+    "/home/soham/.nuget/packages/system.diagnostics.diagnosticsource/10.0.5/system.diagnostics.diagnosticsource.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
