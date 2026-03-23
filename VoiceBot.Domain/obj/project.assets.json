@@ -8,24 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/soham/.nuget/packages/": {}
+    "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj",
       "projectName": "VoiceBot.Domain",
-      "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
-      "packagesPath": "/home/soham/.nuget/packages/",
-      "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/obj/",
+      "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj",
+      "packagesPath": "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/soham/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ShlokaKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "11.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -59,12 +67,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26104.118/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,6 +2,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VoiceBot.Domain\VoiceBot.Domain.csproj" />
+    <ProjectReference Include="..\VoiceBot.Application\VoiceBot.Application.csproj" />
+  </ItemGroup>
+
+  <!-- Microsoft.Extensions.Http brings in HttpClient factories + logging abstractions -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
   </ItemGroup>
 
   <PropertyGroup>

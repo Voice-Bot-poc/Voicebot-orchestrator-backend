@@ -1,39 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "/home/soham/VoiceBotBackend/VoiceBot.API/VoiceBot.API.csproj": {}
+    "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.API\\VoiceBot.API.csproj": {}
   },
   "projects": {
-    "/home/soham/VoiceBotBackend/VoiceBot.API/VoiceBot.API.csproj": {
+    "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.API\\VoiceBot.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.API/VoiceBot.API.csproj",
+        "projectUniqueName": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.API\\VoiceBot.API.csproj",
         "projectName": "VoiceBot.API",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.API/VoiceBot.API.csproj",
-        "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.API/obj/",
+        "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.API\\VoiceBot.API.csproj",
+        "packagesPath": "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/soham/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ShlokaKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj"
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj"
               },
-              "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj"
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj"
               },
-              "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/VoiceBot.Infrastructure.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/VoiceBot.Infrastructure.csproj"
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\VoiceBot.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\VoiceBot.Infrastructure.csproj"
               }
             }
           }
@@ -47,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -73,6 +80,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,34 +106,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26104.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj": {
+    "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj",
         "projectName": "VoiceBot.Application",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Application/VoiceBot.Application.csproj",
-        "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Application/obj/",
+        "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj",
+        "packagesPath": "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/soham/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ShlokaKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj"
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj"
               }
             }
           }
@@ -122,11 +153,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,31 +176,51 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26104.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
+    "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj",
         "projectName": "VoiceBot.Domain",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj",
-        "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/obj/",
+        "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj",
+        "packagesPath": "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/soham/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ShlokaKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,7 +238,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -196,39 +255,62 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26104.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/VoiceBot.Infrastructure.csproj": {
+    "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\VoiceBot.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/VoiceBot.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\VoiceBot.Infrastructure.csproj",
         "projectName": "VoiceBot.Infrastructure",
-        "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/VoiceBot.Infrastructure.csproj",
-        "packagesPath": "/home/soham/.nuget/packages/",
-        "outputPath": "/home/soham/VoiceBotBackend/VoiceBot.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\VoiceBot.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ShlokaKulkarni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/soham/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ShlokaKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj": {
-                "projectPath": "/home/soham/VoiceBotBackend/VoiceBot.Domain/VoiceBot.Domain.csproj"
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Application\\VoiceBot.Application.csproj"
+              },
+              "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj": {
+                "projectPath": "C:\\Users\\ShlokaKulkarni\\Technossus\\VoiceBotPOC\\Voicebot-orchestrator-backend\\VoiceBot.Domain\\VoiceBot.Domain.csproj"
               }
             }
           }
@@ -242,11 +324,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "11.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -258,12 +347,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.1.26104.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
