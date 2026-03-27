@@ -56,7 +56,7 @@ public class VoiceController : ControllerBase
             FileName = file.FileName,
             SessionID =  sessionId
         };
-
+f
         try
         {
             _logger.LogInformation("⚙️ Sending audio to orchestrator");
@@ -74,6 +74,7 @@ public class VoiceController : ControllerBase
 
             return Ok(new
             {
+                sessionId,                // echo back so the frontend can reuse it
                 text,
                 audioBase64 = Convert.ToBase64String(audio ?? Array.Empty<byte>()),
             });
